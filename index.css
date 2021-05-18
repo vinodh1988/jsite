@@ -21,3 +21,17 @@
     text-align:  center;
     font-weight: bolder;
 }
+
+#slideshow{
+    position: fixed;
+    bottom:0px;
+    left: 37%;
+    height: 200px;
+    width: 200px;
+    box-shadow: 3px 3px 10px gray;
+}
+
+#slideshow img{
+    height: 100%;
+    width: 100%;
+}

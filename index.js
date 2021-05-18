@@ -30,3 +30,13 @@ temp=setInterval(function(){
 function clearfun(){
     clearInterval(temp);
 }
+let index=1;
+setInterval(function(){
+    if(index==5)
+      index=1;
+    else
+       index++;
+    document.images[0].src = "stadium"+index+".jpg";
+
+},3000
+)
