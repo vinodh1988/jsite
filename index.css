@@ -1,0 +1,23 @@
+#timer{
+    position: fixed;
+    overflow: hidden;
+    top: 15%;
+    left: 25%;
+}
+.timeblock{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightblue;
+    border: 2px solid rgb(100, 128, 138);
+    background-color: lightblue;
+    color: darkred;
+    float: left;
+    margin:20px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    text-align:  center;
+    font-weight: bolder;
+}
