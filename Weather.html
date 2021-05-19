@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="Weather.js"></script>
+        <link href="Weather.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="form">
+            <input type="text" id="city">
+            <button id="getweather">Get Weather</button>
+        </div>
+        <div id="result">
+           <div class="row"> 
+               <div class="header">City</div>
+               <div class="value" id="cityresult"></div>
+           </div>
+           <div class="row"> 
+            <div class="header" >Country</div>
+            <div class="value" id="countryresult"></div>
+        </div>
+        <div class="row"> 
+            <div class="header" >Region</div>
+            <div class="value" id="regionresult"></div>
+        </div>
+        <div class="row"> 
+            <div class="header">Geolocation</div>
+            <div class="value" id="georesult"></div>
+        </div>
+        <div class="row"> 
+            <div class="header">Temperature</div>
+            <div class="value" id="tempresult"></div>
+        </div>
+        <div class="row"> 
+            <div class="header">Feels like</div>
+            <div class="value" id="feelresult"></div>
+        </div>
+        <div class="row"> 
+            <div class="header">Humidity</div>
+            <div class="value" id="humidity"></div>
+        </div>
+        </div>
+
+    </body>
+</html>

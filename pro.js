@@ -9,7 +9,8 @@ function updateselect(){
             code+="<p>"+data[x]+"</p>"
             code+="</div>"
         }
-        document.getElementById('props').innerHTML =code;
+        //document.getElementById('props').innerHTML =code;
+        $('#props').html(code);
     });
 }
 
